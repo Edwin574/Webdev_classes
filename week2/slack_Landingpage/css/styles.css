@@ -83,6 +83,7 @@ span{
 }
 .paragraph1{
     font-size: 20px;
+    padding-top:30px;
 }
 .signUp{
     /* width: 250px; */
@@ -106,7 +107,6 @@ span{
     background-color: white;
     float:left;
     width: 18%;
-    
 }
 .p2{
     float:right;
