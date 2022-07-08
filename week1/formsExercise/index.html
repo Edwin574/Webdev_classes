@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<form>
+<header>Magoso Registration Form</header>
+<div>
+<label class="labels">First Name:</label><input type="text"/><br>
+<label class="labels">Last Name:</label><input type="text"/><br>
+<label class="labels">Email:</label><input type="email"/><br>
+<label class="labels">Phone Number: </label><input type="text"/><br>
+<label class="labels">Gender:</label>
+<input type="radio" name="sex"/><label>Male</label>
+<input type="radio" name="sex"/><label>Female</label><br>
+<label class="labels">Age:</label><input type="number" min=3 /><br>
+<label class="labels">Program: </label>
+<select>
+<option selected >Fullstack</option>
+<option>Part time program</option>
+</select><br>
+<label class="labels">Competencies:</label><br>
+<input class="check" type="checkbox" /><label class="check">HTML</label><br>
+<input class="check" type="checkbox" /><label class="check">CSS</label><br>
+<input class="check" type="checkbox" /><label class="check">Javascript</label><br>
+<input class="check" type="checkbox" /><label class="check">React</label><br>
+<input class="check" type="checkbox" /><label class="check">Node JS</label><br>
+<input class="check" type="checkbox" /><label class="check">Python</label><br>
+
+<label class="labels">Registration Date:</label><input type="date"/><br>
+<div class="vertical">
+<label>Comment:</label>
+<textarea rows=10 cols=30></textarea><br>
+</div>
+<input id="button" type="submit" value="Submit" />
+</div>
+</form>
+    
+</body>
+</html>

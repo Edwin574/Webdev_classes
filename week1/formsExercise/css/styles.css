@@ -1,0 +1,79 @@
+body{
+background-color:peru;
+font-family:sans-serif;
+margin:20%;
+}
+form{
+border:2px solid black;
+}
+header{
+border-bottom:2px solid black;
+padding:5%;
+text-align:center;
+background-color:chocolate;
+font-family:sans-serif;
+font-size:24px;
+text-decoration:bold;
+margin-bottom:15px;
+top:0px;
+position:sticky;
+
+}
+div{
+padding-left:60px;
+margin-bottom:30px
+}
+.labels{
+padding-right:50px;
+margin-bottom:20px;
+display:inline-block;
+}
+input, select, textarea{
+border:2px solid black;
+}
+.check{
+margin-top:0px;
+margin-left:2px;
+display: inline-flex;
+margin-bottom:9px;
+}
+label{
+display:inline-block;
+width:150px;
+}
+#button{
+padding:8px;
+font-size:18px;
+box-shadow:3px 3px 4px black;
+margin-left:auto;
+margin-right:auto;
+background-color:tan;
+display:inline-block;
+border-radius:20%;
+animation-name:example;
+animation-duration:2s;
+animation-iteration-count: 4;
+animation-direction:alternate-reverse;
+left:10px;
+}
+.vertical{
+display:flex;
+}
+input{
+padding:7px;
+background-color:thistle;
+}
+#button:hover{
+background-color:firebrick;
+cursor:pointer;
+width:100px;
+height:50px;
+}
+input:active{
+    background-color:orangered;
+}
+@keyframes example {
+    from {background-color: tan;}
+    to {background-color:chocolate;}
+  }
+

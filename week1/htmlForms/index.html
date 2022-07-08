@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Forms</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<h2>This is a random form</h2>
+<p>This form covers learning of different input types in a typical html form</p>
+<form>
+<label>First Name:	</label><input required type="text" placeholder="First Name"/> <!-- This is a text input type-->
+<br>
+<br>
+<label>Second Name:	</label><input required type="text" placeholder="Second Name"/> 
+<!-- This is a text input type-->
+<br>
+<br>
+<label>Email Address:	</label><input required type="email" placeholder="Your Email"/>
+<!-- This is an email input type-->
+<br>
+<br>
+<label>Phone Number: 	</label><input type="number" placeholder="contact" min=5 max=50/>
+<!-- This is a number input type-->
+<br>
+<br>
+<label>Date of Birth: 	</label><input type="date" placeholder="date of birth"/>
+<!-- This is a date input type-->
+<br>
+<br>
+<label>Profile picture:  </label><input type="file"/>
+<!-- This is a file input type-->
+<br>
+<br>
+<label>Favourite color: 	</label><input type="color" placeholder="fav color" /><!-- this is a colour input type-->
+<br>
+<br>
+<!-- This are radio buttons which enables someone to make a single selection out of different options.All buttons in the same category ae given the same name-->
+<label>Male: 	</label><input type="radio" name="gender"/>
+<label>Female: 	</label><input type="radio" name="gender"/>
+<label>Other:   </label><input type="radio" name="gender"/>
+<br>
+<br>
+<label>Delivery Mode</label><br>
+<!-- These are checkboxes which enables one to make more than one selection in a variety of options-->
+<input type="checkbox" name="option1"><label>Pick up station</label><br>
+<input type="checkbox" name="option2"><label>Door step delivery</label><br>
+<input type="checkbox" name="option3"><label>Ware House</label>
+<br>
+<br>
+<label>Hobies</label><br>
+<input type="checkbox" name="option1"><label>Travelling</label><br>
+<input type="checkbox" name="option2"><label>Playing Footbal</label><br>
+<input type="checkbox" name="option3"><label>Basketball</label>
+<br>
+<input type="checkbox" name="option3"><label>Inline Skating</label>
+<br>
+<input type="checkbox" name="option3"><label>Heliophile</label>
+<br>
+<!-- a text area enables one to give a description in long text.The row column values defines the size-->
+<textarea placeholder="Describe your company in 300 words" rows="10" cols="45"></textarea>
+<br><br>
+<label>County: </label>
+<select>
+<option selected disabled>Select a county</option>
+<option>Nairobi</option>
+<option>Kiambu</option>
+<option >Mombasa</option>
+<option>Kilifi</option>
+<option>Kakamega</option>
+<option>Kajiado</option>
+<option>HomaBay</option>
+<option>Tharaka Nithi</option>
+<option>Meru</option>
+<option>Garissa</option>
+<option>Taita Taveta</option>
+<option>Bungoma</option>
+<option>Busia</option>
+<option>Siaya</option>
+<option>Kisumu</option>
+
+</select>
+<br><br>
+<label>Password: 	</label><input type="password" placeholder=" your password"/>
+<br><br>
+<input type="submit" value="send form"/><!--default button to submit a form-->
+<input type="reset" value="clear Form"><!-- enables you to clear the contents of the form-->
+</form>
+
+</body>
+</html>

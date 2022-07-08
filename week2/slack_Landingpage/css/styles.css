@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    background-color:#541554;
+}
+ul > li {
+  list-style-type: none;
+  padding: 10px;
+  color:white;
+  display:inline-block;
+  vertical-align: center;
+}
+.nav-part1{
+    float:left;
+}
+.nav-part2{
+    float:right;
+    margin:auto;
+}
+.clear{
+    clear:both;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    
+}
+.middle{
+    background-color: #F4EDE4;
+}
+button{
+    padding:10px;
+    border:1px solid white;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#sales{
+    background-color:transparent;
+    color:white;
+}
+#sales:hover{
+    border:2px solid white;
+}
+#free{
+    background-color: white;
+}
+#free:hover{
+    border-radius: 0%;
+    padding: 8px;
+}
+.left{
+    float:left;
+    width:50%;
+    padding: 20px;
+    color:white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.right{
+    float:right;
+    display: inline;
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right video{
+    width: 100%;
+}
+.clear2{
+    clear: both;
+    /* width: 40%; */
+}
+h1{
+    font-size:64px;
+}
+span{
+    
+    color:#CB9036;
+}
+.paragraph1{
+    font-size: 20px;
+}
+.signUp{
+    /* width: 250px; */
+    background-color: #4285F4; 
+    padding: 0px; 
+    color: white;
+    float:left;
+    width: 45%;
+    margin-top: 10px;
+}
+.email{
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    float:right;
+    width: 45%;
+    margin-top: 10px;
+}
+#googleimg{
+    background-color: white;
+    float:left;
+    width: 18%;
+    
+}
+.p2{
+    float:right;
+    padding-top: 15px;
+    margin-left: 0px;
+    width: 82%;
+}
+.partners{
+    /* padding-top:40px; */
+    text-align: center;
+    padding: 30px 0;
+}
+.companies>li{
+    /* margin:25px; */
+    vertical-align: middle;
+    padding-right: 40px;
+}
+.channelsvideo,.flexibletext,.platformvideo{
+    width: 50%;
+    float:left;
+
+}
+.channelstext,.flexiblevideo,.platformtext{
+    width: 50%;
+    float:right;
+}
+.channelsvideo video,.flexiblevideo video,.platformvideo video{
+    width: 100%;
+}
+.channels,.flexible,.platform{
+    padding:40px;
+}

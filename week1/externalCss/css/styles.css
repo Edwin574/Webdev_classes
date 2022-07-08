@@ -1,0 +1,32 @@
+body{
+background:tomato;
+margin:30px;
+}
+h1{
+text-transform:uppercase;
+font-size:36px;
+text-shadow:2px 2px 2px black;
+}
+p{}
+h2{
+font-size:32px;
+text-decoration:underline dotted black;
+color:darkblue;
+text-align:center;
+font-weight:bold;
+border:2px solid black;
+}
+h3{
+color:blue;
+text-decoration:underline;
+}
+p,ul,ol{
+font-family:arial;
+}
+ol>li{
+color:blue;
+text-decoration:underline;
+}
+img{
+border-radius:50px;
+}
