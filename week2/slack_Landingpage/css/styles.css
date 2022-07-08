@@ -3,8 +3,17 @@
     padding:0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Sans Serif";
+    src: url("/fonts/circular-std-medium-500.ttf") format("ttf");
+        
+  }
+body{
+    font-family: circular std,sans-serif;
+}
 header{
     background-color:#541554;
+    
 }
 ul > li {
   list-style-type: none;
@@ -72,7 +81,6 @@ button{
 }
 .clear2{
     clear: both;
-    /* width: 40%; */
 }
 h1{
     font-size:64px;
@@ -86,10 +94,8 @@ span{
     padding-top:30px;
 }
 .signUp{
-    /* width: 250px; */
     background-color: #4285F4; 
     padding: 0px; 
-    color: white;
     float:left;
     width: 45%;
     margin-top: 10px;
@@ -115,12 +121,10 @@ span{
     width: 82%;
 }
 .partners{
-    /* padding-top:40px; */
     text-align: center;
     padding: 30px 0;
 }
 .companies>li{
-    /* margin:25px; */
     vertical-align: middle;
     padding-right: 40px;
 }
@@ -138,4 +142,17 @@ span{
 }
 .channels,.flexible,.platform{
     padding:40px;
+}
+.middleP{
+    font-size:18px;
+}
+.middleh2{
+    font-size: 50px;
+}
+.channelstext,.platformtext{
+    vertical-align: center;
+    padding: 50px;
+}
+.flexibletext{
+    padding-right: 50px;
 }
