@@ -46,6 +46,7 @@ button{
     margin-bottom: 13px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 #sales{
     background-color:transparent;
@@ -128,7 +129,7 @@ span{
     vertical-align: middle;
     padding-right: 40px;
 }
-.channelsvideo,.flexibletext,.platformvideo{
+.channelsvideo,.flexibletext,.platformvideo,.youtubevideo{
     width: 50%;
     float:left;
 
@@ -155,4 +156,64 @@ span{
 }
 .flexibletext{
     padding-right: 50px;
+}
+.stats{
+    text-align: center;
+}
+.statistics>li {
+    color:black;
+    vertical-align: middle;
+    margin:80px;
+    width: 200px;
+}
+.reliance{
+    padding: 35px 0px;
+}
+.enterprise{
+    background-color:#541554;
+    color: white;
+    padding:25px 32px;
+    margin:10px;
+}
+.enterprise:hover{
+    background-color: #300630;
+}
+#sales2{
+    border:1px solid #541554;
+    color:#541554;
+    padding: 20px;
+    background-color: white;
+    padding:25px 34px;
+}
+#sales2:hover{
+    border:3px solid #541554;
+    padding:22px 32px;
+}
+.percentage{
+    font-size: 64px;
+    color:#641464 ;
+    font-weight: bolder;
+}
+.quote{
+    margin-left:20px;
+}
+.youtubevideo video{
+    width: 97%;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+.customer{
+    font-size: 28px;
+    font-style: italic;
+    vertical-align: center;
+    padding: 20px;
+    font-weight:lighter;
+}
+.footerdiv1{
+    background-color: #541554;
+    padding:150px;
+    text-align: center;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    color: white;
 }
