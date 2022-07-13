@@ -223,47 +223,73 @@ span{
 }
 .div4{
     background-color: #541554;
-    padding:100px;
+    padding:6%;
     text-align: center;
-    border-bottom-left-radius: 80%;
-    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
     color: white;
+    
 }
 .cards{
     text-align: center;
     background-color:#F4EDE4;
-    padding: 40px;
+    padding: 50px;
 }
 .card1{
     background-color: #541554;
     padding: 10px;
     text-align:left;
     color: white;
+    width: 23%;
+    float: left;
 }
-.card1img{
+.card1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card{
+    padding: 10px;
+    float: left;
+    width: 23%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgb(158, 151, 151);
+}
+.card:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+.allcards div:not(:first-child){
+    margin-left: 2%;
+}
+.allcards{
+    padding-top: 20px;
+    height: 100%;
+}
+.card1arrow{
     float:right;
     color:white;
 }
-.cardimg{
+.cardarrow{
     color:blue;
 }
 .foot{
     float: left;
 }
-.card{
-    padding: 20px;
-    float: left;
-    width: 25%;
+.cardimage{
+    padding:10px;
 }
 .card1-footer{
-    margin-top: 100px;
+    margin-top: 40%;
     color: white;
 }
+.card2-footer{
+    margin-top: 30%;
+}
 .card4-footer{
-    margin-top: 60px;
+    margin-top: 30%;
 }
 .card-footer{
-    margin-top: 80px;
+    margin-top: 40%;
 }
 .cardh5{
     padding-top: 15px;
@@ -286,7 +312,31 @@ span{
     line-height: 2;
     color:#696969;
 }
-footer{
+footer li:hover{
+    color: #4285F4;
+    cursor: pointer;
+}
+.footer-left li,.footer-right li{
+    display:inline-block;
+    vertical-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 0.7rem;
     color: black;
-    margin-top: 50px;
+    font-weight: bolder;
+    padding:2%;
+}
+.footer-left{
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+.footer-right{
+    float: right;
+    width: 30%;
+}
+.copyright{
+    font-size: 0.8rem;
+    padding-bottom: 5%;
+    padding-top: 4%;
 }
