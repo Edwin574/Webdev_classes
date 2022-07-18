@@ -1,0 +1,94 @@
+div.box{
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    margin-left:10px;
+    margin-top:10px;
+    
+}
+div.parent{
+    height: 650px;
+    width: 500px;
+    border:2px solid black;
+}
+div.blue{
+    background-color: blue;
+    /* position:absolute;
+    top:20px;
+    left:20px; */
+    
+}
+div.lightblue{
+    background-color:red;
+    z-index: 20;
+    position:relative;
+    left:250px;
+    top:-100px;
+}
+div.skyblue{
+    background-color: green;
+}
+.parent2{
+    position:relative;
+    height: 300px;
+    width: 200px;
+    margin-left:50px;
+    border-radius:8%;
+    box-shadow:5px 5px 15px 5px black;
+    background-color: floralwhite;
+}
+div.new{
+    position:absolute;
+    top:-10px;
+    right:160px;
+    /* border:0.5px solid black; */
+    width:50px;
+    height: 25px;
+    background-color: red;
+    color:whitesmoke;
+    padding:3px;
+    font-size:20px;
+}
+div.pro{
+    padding-top:20px;
+    text-align:center;
+    font-size:25px;
+}
+div.price{
+    padding:10px;
+    text-align: center;
+    position: absolute;
+    top:130px;
+    left:40px;
+    width: 95px;
+    font-size:20px;
+    border-radius:50%;
+    box-shadow:4px 4px 4px 5px black;
+}
+button{
+    position: absolute;
+    top:250px;
+    left:60px;
+    padding:10px;
+    background-color: red;
+    border-radius:10%;
+}
+button:hover{
+    background-color: blue;
+    color:white;
+}
+.fixed{
+    height: 50px;
+    width: 50px;
+    border:1px solid black;
+    border-radius: 100%;
+    padding: 20px;
+    text-align:center;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0px;
+    left:550px;  
+}
+.fixed:hover{
+    background-color: beige;
+}
