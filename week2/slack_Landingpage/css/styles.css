@@ -21,6 +21,7 @@ ul li {
 .nav-content {
   font-weight: bold;
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
 }
@@ -36,18 +37,20 @@ a[href="#"] {
   color: #4285f4;
 }
 
-.clear {
-  clear: both;
-}
-
 .digital-hq {
   display: flex;
+  gap:2em;
+  flex-wrap: wrap;
   padding: 3em 0;
   justify-content: space-between;
 }
 .nav-left {
   color: white;
-  padding-right: 1.5em;
+  width: 45%;
+  /* padding-right: 1.5em; */
+}
+.nav-right{
+  width: 50%;
 }
 button {
   border: 1px solid white;
@@ -55,14 +58,17 @@ button {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  font-size: .7rem;
 }
 #sales {
   background-color: transparent;
   color: white;
   padding: 1em 1.5em;
+  font-size: .7rem;
 }
 #sales:hover {
   border: 2px solid white;
+  
 }
 #free {
   background-color: white;
@@ -70,14 +76,14 @@ button {
 }
 #free:hover {
   border-radius: 0%;
-  padding: 8px;
+  zoom: 0.9;
 }
 
-.right video {
+.nav-right video {
   width: 100%;
 }
 h1 {
-  font-size: 60px;
+  font-size: 3rem;
 }
 span {
   color: #cb9036;
@@ -88,20 +94,23 @@ span {
 }
 .header-buttons {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.5em 0;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+  align-content: center;
+  gap:.5em;
 }
 .signUp {
   background-color: #4285f4;
+  border: none;
+  color: white;
 }
 .email {
   padding: 1em 2em;
   background-color: transparent;
   color: white;
-  font-size: 14px;
   width: 45%;
-  margin-top: 10px;
+
 }
 .google-signup {
   display: flex;
@@ -121,6 +130,7 @@ span {
 .companies1,
 .companies2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 4em;
   margin-top: 1.5em;
@@ -132,6 +142,7 @@ span {
 .flexible,
 .platform {
   display: flex;
+  flex-wrap: wrap;
   margin: 3em 0;
   gap: 4em;
   justify-content: center;
@@ -196,6 +207,7 @@ span {
 }
 .youtube {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -234,6 +246,7 @@ span {
 }
 .allcards {
   display: flex;
+  flex-wrap: wrap;
   gap: 2em;
   align-items: center;
   padding-top: 1.5em;
@@ -318,6 +331,7 @@ span {
 }
 .footer-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 2em 0em;
 }
@@ -356,3 +370,4 @@ footer li:hover {
   padding-bottom: 5%;
   padding: 2.5em 0em;
 }
+ 
