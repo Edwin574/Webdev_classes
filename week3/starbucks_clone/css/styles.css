@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --pinkish: #fa91aa;
+  --greenish: #5ca34d;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+  vertical-align: middle;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.part1,
+.part2 {
+  display: flex;
+  margin-top: 2em;
+  align-content: center;
+  justify-content: center;
+  
+}
+.part1 {
+  margin-bottom: 2em;
+  color: #1E3932;
+}
+.part1-left {
+  background-color: var(--pinkish);
+  text-align: center;
+  padding: 7em;
+  width: 50%;
+}
+.part1-right {
+  width: 50%;
+}
+.part2-left {
+  width: 50%;
+  
+}
+.part2-right {
+  color: white;
+  padding: 7em;
+  background-color:#007042;
+  width: 50%;
+  text-align: center;
+}
+/* STYLING BUTTONS */
+button {
+  border-radius: 15px;
+  padding: 0.3em 1em;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.btn-sign {
+  border: 2px solid black;
+  background-color: transparent;
+}
+.btn-sign:hover {
+  background-color: lightgrey;
+}
+.btn-join {
+  background-color: black;
+  color: white;
+}
+.btn-join:hover {
+  opacity: 70%;
+}
+.learn-more{
+  background-color: transparent;
+  padding: 0.5em 1em;
+}
+.learn-more:hover{
+  opacity: 100%;
+}
+.order{
+  background-color: transparent;
+  color: white;
+  border:1px solid white;
+}
+.order:hover{
+  opacity:70%
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+p{
+  font-size: 1.5em;
+  margin: 1.5em 0em;
+  
+}

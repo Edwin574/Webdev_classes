@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav ul button {
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 2em 0em;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1em;
+}
+.nav ul li {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.nav ul li:nth-child(3) > button {
+  background-color: aquamarine;
+}/*# sourceMappingURL=styles.css.map */

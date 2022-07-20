@@ -1,0 +1,78 @@
+@media screen and (max-width: 414px) {
+  .container {
+    width: 90%;
+  }
+  .nav-content {
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+  }
+  .nav-part1 img {
+    width: 60px;
+  }
+  .nav-left {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-right {
+    width: 100%;
+  }
+  .digital-hq {
+    padding: 1em 0 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .signUp,
+  .email,.enterprise,#sales2{
+    width: 100%;
+  }
+  #sales,#free{
+    width: 80%;
+  }
+  .companies1,
+  .companies2 {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+    gap: 1em;
+    padding: 1em;
+  }
+  .flexible{
+    flex-wrap: wrap-reverse;
+  }
+  .channelstext,.flexibletext,.platformtext{
+    width: fit-content;
+
+  }
+  .middleh2{
+    font-size: 1.8rem;
+  }
+  .middleP{
+    font-size: 1.25rem;
+  }
+  .middle-buttons{
+    padding: 0;
+  }
+  .allstat{
+    display: inline;
+  }
+  .stat1 {
+    /* padding: 4em; */
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+  }
+  .youtubevideo,.quote{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .footer-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 2em 0em; */
+  }
+  
+}

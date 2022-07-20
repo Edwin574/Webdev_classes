@@ -1,0 +1,16 @@
+
+// This is code that is reusable on different parts of the code.
+
+//Flex box
+@mixin flex(
+  $justify: flex-start,
+  $align: flex-start,
+  $direction: row,
+  $wrap: nowrap
+) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
