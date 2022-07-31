@@ -21,7 +21,6 @@ ul li {
 .nav-content {
   font-weight: bold;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
 }
@@ -39,7 +38,7 @@ a[href="#"] {
 
 .digital-hq {
   display: flex;
-  gap:2em;
+  gap: 2em;
   flex-wrap: wrap;
   padding: 3em 0;
   justify-content: space-between;
@@ -47,9 +46,8 @@ a[href="#"] {
 .nav-left {
   color: white;
   width: 45%;
-  /* padding-right: 1.5em; */
 }
-.nav-right{
+.nav-right {
   width: 50%;
 }
 button {
@@ -58,17 +56,16 @@ button {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 #sales {
   background-color: transparent;
   color: white;
   padding: 1em 1.5em;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 #sales:hover {
   border: 2px solid white;
-  
 }
 #free {
   background-color: white;
@@ -95,10 +92,10 @@ span {
 .header-buttons {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   align-content: center;
-  gap:.5em;
+  gap: 0.5em;
 }
 .signUp {
   background-color: #4285f4;
@@ -110,7 +107,6 @@ span {
   background-color: transparent;
   color: white;
   width: 45%;
-
 }
 .google-signup {
   display: flex;
@@ -147,8 +143,15 @@ span {
   gap: 4em;
   justify-content: center;
 }
-.platformtext {
-  width: 50%;
+.platformtext,
+.channelstext,
+.flexibletext {
+  width: 45%;
+}
+.channelsvideo,
+.flexiblevideo,
+.platformvideo {
+  width: 45%;
 }
 .middle {
   background-color: #f4ede4;
@@ -351,7 +354,8 @@ footer li:hover {
 }
 .footnote {
   display: flex;
-  justify-content:space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 1em 0;
@@ -370,4 +374,3 @@ footer li:hover {
   padding-bottom: 5%;
   padding: 2.5em 0em;
 }
- 

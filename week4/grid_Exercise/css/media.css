@@ -1,0 +1,16 @@
+@media screen and (max-width:415px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        gap:2em;
+        
+    }
+    .profile{
+        z-index: 10;
+    }
+    .verified { 
+        color: var(--White);
+        opacity: 70%;
+    }
+}
+    

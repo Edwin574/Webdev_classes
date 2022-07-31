@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@200&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -9,11 +10,16 @@
   margin: 0 auto;
 }
 
-.nav ul button {
+.hero-section button, .nav ul button {
   border: none;
-  padding: 1em 1.5em;
-  border-radius: 5px;
+  padding: 1em 2.5em;
+  border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #5F9EA0;
 }
 
 .nav {
@@ -23,6 +29,10 @@
   flex-direction: row;
   flex-wrap: nowrap;
   padding: 2em 0em;
+}
+.nav h2 {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
 }
 .nav ul {
   list-style-type: none;
@@ -38,5 +48,38 @@
   font-size: 1.2rem;
 }
 .nav ul li:nth-child(3) > button {
+  background-color: aquamarine;
+}
+.nav ul li:nth-child(4) > button {
+  background-color: transparent;
+  box-shadow: 1px 1px 1px 2px grey;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 90vh;
+  text-align: center;
+  color: white;
+  background: url(https://images.pexels.com/photos/6984069/pexels-photo-6984069.jpeg?cs=srgb&dl=pexels-moo-jii-6984069.jpg&fm=jpg) no-repeat center center/cover;
+}
+.hero-section h1 {
+  font-size: 7rem;
+}
+.hero-section button {
+  margin: 3em 2em;
+}
+.hero-section .hero-buttons > button:first-child {
+  background-color: aquamarine;
+}
+.hero-section .hero-buttons > button:first-child:hover {
+  background-color: #5F9EA0;
+}
+.hero-section .hero-buttons > button:last-child {
+  background-color: #5F9EA0;
+}
+.hero-section .hero-buttons > button:last-child:hover {
   background-color: aquamarine;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,36 @@
+@use "../basic/mixins";
+@use "../basic/inherited";
+@use "../basic/variables" as *;
+
+// .container{
+//     width: 100vw;
+//     height: 100vh;
+// }
+.hero-section {
+  @include mixins.flex(center, center);
+  height: 90vh;
+  text-align: center;
+  color: $white;
+  background: url(https://images.pexels.com/photos/6984069/pexels-photo-6984069.jpeg?cs=srgb&dl=pexels-moo-jii-6984069.jpg&fm=jpg)
+    no-repeat center center/cover;
+  h1 {
+    font-size: 7rem;
+    
+  }
+  button{
+    @extend %button;
+    margin: 3em 2em;
+  }
+  .hero-buttons>button:first-child{
+    background-color: $primarycolor;
+    &:hover{
+        background-color: $cadetblue;
+    }
+  }
+  .hero-buttons>button:last-child{
+    background-color: $cadetblue;
+    &:hover{
+        background-color: $primarycolor;
+    }
+  }
+}

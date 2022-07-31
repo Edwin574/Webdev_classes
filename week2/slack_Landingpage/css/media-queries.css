@@ -6,6 +6,9 @@
     flex-wrap: wrap;
     font-size: 0.7rem;
   }
+  .nav-part1{
+    width: 100%;
+  }
   .nav-part1 img {
     width: 60px;
   }
@@ -16,6 +19,7 @@
   .nav-right {
     width: 100%;
   }
+
   .digital-hq {
     padding: 1em 0 0;
   }
@@ -23,10 +27,13 @@
     font-size: 2.5rem;
   }
   .signUp,
-  .email,.enterprise,#sales2{
+  .email,
+  .enterprise,
+  #sales2 {
     width: 100%;
   }
-  #sales,#free{
+  #sales,
+  #free {
     width: 80%;
   }
   .companies1,
@@ -37,33 +44,40 @@
     gap: 1em;
     padding: 1em;
   }
-  .flexible{
+  .flexible {
     flex-wrap: wrap-reverse;
   }
-  .channelstext,.flexibletext,.platformtext{
+  .channelstext,
+  .flexibletext,
+  .platformtext {
     width: fit-content;
-
   }
-  .middleh2{
+  .channelsvideo,
+  .flexiblevideo,
+  .platformvideo {
+    width: 100%;
+  }
+  .middleh2 {
     font-size: 1.8rem;
   }
-  .middleP{
+  .middleP {
     font-size: 1.25rem;
   }
-  .middle-buttons{
+  .middle-buttons {
     padding: 0;
   }
-  .allstat{
+  .allstat {
     display: inline;
   }
   .stat1 {
-    /* padding: 4em; */
+    
     width: 100%;
     text-align: center;
     font-weight: bold;
     display: inline;
   }
-  .youtubevideo,.quote{
+  .youtubevideo,
+  .quote {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -72,7 +86,104 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 2em 0em; */
+    
+  }
+  .footer-items ul li {
+    display: none;
+  }
+  .footer-items {
+    display: block;
+  }
+  .footer-header{
+    font-weight: lighter;
+  }
+  /* CARDS */
+  .cards-section {
+    text-align: center;
+    background-color: #f4ede4;
+   
+  }
+  .allcards {
+    display: block;
+  }
+  .card {
+    padding: 0.5em;
+    margin: 1em 0em;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(158, 151, 151);
+    cursor: pointer;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
   }
   
+  .card1 {
+    background-color: #541554;
+    padding: .5em;
+    margin: 1em 0em;
+    text-align: left;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+
+  .card1arrow {
+    color: white;
+  }
+  .cardarrow {
+    color: rgb(69, 69, 170);
+  }
+  
+  .cardimage {
+    padding: 0.5em;
+  }
+  .card1-footer,
+  .card2-footer,
+  .card3-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card1-footer {
+    margin-top: 30%;
+    color: white;
+  }
+  
+  .card2-footer {
+    margin-top: 40%;
+  }
+  
+  .card3-footer {
+    margin-top: 30%;
+  }
+  .cardh5 {
+    padding-top: .5em;
+    color: #696969;
+    text-align: left;
+  }
+  .cardh3 {
+    padding-top: .5em;
+    color: black;
+    text-align: left;
+  }
+  .card-header {
+    text-align: left;
+    color: #696969;
+  }
+  .footnote {
+    display: inline-block;
+    
+    width: 100%;
+    padding: 1em 0;
+  }
+  .footnote-left li,
+  .footnote-right li {
+    display: block;
+    font-size: 0.7rem;
+    color: black;
+    font-weight: bolder;
+    
+  }
 }

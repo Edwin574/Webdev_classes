@@ -1,11 +1,18 @@
 @use "../basic/mixins";
 @use "../basic/inherited";
-@use "../basic/variables";
+@use "../basic/variables" as *;
 // This carries styling for the navigation part only.
-
+nav{
+  background-color: $cadetblue;
+}
 .nav {
   @include mixins.flex(space-between, center, row, nowrap);
   padding: 2em 0em;
+  // cursor: pointer;
+  h2{
+    font-family: $logo;
+    font-weight: 400;
+  }
 
   ul {
     list-style-type: none;
@@ -15,16 +22,17 @@
     li {
       cursor: pointer;
       font-size: 1.2rem;
-    }
-    li:nth-child(3)>button{
+      &:nth-child(3)>button {
         background-color: $primarycolor;
+      }
+      &:nth-child(4) > button {
+        background-color: $transparent;
+        box-shadow: 1px 1px 1px 2px $shadesofgrey;
+      }
     }
-    li:nth-child(4)>button{
-        background-color: black;
-    }
-    button{
-        @extend %button
+    
+    button {
+      @extend %button;
     }
   }
-   
 }
