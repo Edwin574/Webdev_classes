@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+#btn{
+    padding:1em 4em;
+    background-color:blue;
+    color: white;
+    border-radius: 10px;
+}

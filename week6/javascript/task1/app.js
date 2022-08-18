@@ -6,6 +6,8 @@ console.log('First funcyion')
 greeting()
 greeting()
 
+
+
 function greet(myname) {
     console.log('Hello,there '+ myname)
 }
@@ -25,16 +27,49 @@ function circleArea(radius) {
 }
 circleArea(7)
 
+
+
+/*
 function square(n) {
     var n=prompt('Enter the number')
     let theSquare = n**2
     console.log(theSquare)
 }
 square()
+*/
 
-function squareRoot(k) {
+
+
+/*function squareRoot(k) {
     var k = prompt('Enter the number to find squareroot')
     let theSquareRoot = Math.sqrt(k)
     console.log(theSquareRoot)
 }
 squareRoot()
+*/
+
+
+
+function sum(a, b) {
+    console.log(a+b)
+}
+sum(9, 3)
+
+
+
+function stringCaps(words) {
+    // var words = prompt('Enter the strings')
+    words=String(words).toUpperCase()
+    console.log(words)
+}
+stringCaps()
+
+
+
+function convert(celcius) {
+    const k = 33.8
+    var fahrenheit = (celcius-1) * 1.8 + k
+    console.log( celcius +'°C is approximately '+ fahrenheit +' F')
+     
+}
+convert(25)
