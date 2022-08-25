@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+
+.row1 {
+  background: url("../images/bg-desktop-dark.jpg") no-repeat center center/cover;
+  padding: 2em;
+}
+
+.check-item:checked + p {
+  color: hsl(234deg, 11%, 52%);
+  text-decoration: line-through;
+}
+
+#dark {
+  opacity: 0;
+}
+
+.light {
+  background-color: aquamarine;
+}
+
+.light #light {
+  opacity: 0;
+}
+
+.light #dark {
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */
