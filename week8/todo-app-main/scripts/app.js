@@ -21,25 +21,16 @@ newtask.addEventListener('keypress', function (e) {
     if (e.key == 'Enter') {
         const listItem = document.createElement('div')
         // listItem.classList.add('list-item-div')
-        listItem.setAttribute('class','list-item-div d-flex flex-row ')
-        listItem.innerHTML = `<input type='checkbox' class='check-item'/>
-        <p id='individual-item' class='strike'>${newtask.value}</p>
+        listItem.setAttribute('class','list-item-div d-flex flex-row px-3 py-1 align-items-baseline justify-content-start gap-2 flex-wrap')
+        listItem.innerHTML = `<input type='checkbox' class='check-item '/>
+        <p id='individual-item' class='strike pe-4'>${newtask.value}</p>
         <img src='./images/icon-cross.svg' class='delete-item' ?/>`
         // console.log(listItem)
         taskList.append(listItem)
         newtask.value = null
         const deleteButton = listItem.querySelector('.delete-item')
-    //     const deleteButton = taskList.querySelectorAll('.delete-item')
-    //     const deleteArray=Array.from(deleteButton)
-
-    //     deleteArray.forEach(item => {
-    //         item.addEventListener('click', (e) => {
-    //             const parent = e.target.parentElement
-    //             parent.remove()
-               
-    //        })
-    //    })
-
+    
+ 
 
         deleteButton.addEventListener('click', function () {
             listItem.remove()

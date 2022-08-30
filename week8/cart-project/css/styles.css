@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    color: skyblue;
+}
+
+.cart {
+    position: relative;
+    
+}
+
+.counter {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background: red;
+    color: yellow;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
