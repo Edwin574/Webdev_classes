@@ -31,9 +31,9 @@ const counter = document.querySelector(".counter");
 const cart = [];
 
 products.map((product, index) => {
-    // Variables
-    const productDiv = document.createElement("div");
-    productDiv.innerHTML = `
+  // Variables
+  const productDiv = document.createElement("div");
+  productDiv.innerHTML = `
     <div class="card" style="width: 20rem;">
     <img src=${product.url} class="card-img-top" alt="...">
     <div class="card-body">
@@ -43,37 +43,37 @@ products.map((product, index) => {
     </div>
     </div>  
     `;
-    
-    productsContainer.append(productDiv);
+
+  productsContainer.append(productDiv);
 });
 const buttons = document.querySelectorAll(".button");
 
-buttons.forEach(button=>{
-    button.addEventListener("click", (e)=>{
+buttons.forEach(button => {
+  button.addEventListener("click", (e) => {
 
-        const el = e.target
-        const name = el.parentElement.children[0].innerText;
-        const price = el.parentElement.children[1].innerText;
-        const image= el.parentElement.parentElement.children[0].src;
+    const el = e.target
+    const name = el.parentElement.children[0].innerText;
+    const price = el.parentElement.children[1].innerText;
+    const image = el.parentElement.parentElement.children[0].src;
 
-        const cartItem = {
-            name,
-            price:parseInt(price.substring(5)),
-            image
-        }
+    const cartItem = {
+      name,
+      price: parseInt(price.substring(5)),
+      image
+    }
 
-        if(el.innerText=="Add to Cart"){
-            cart.push(cartItem)
-            el.innerText = "Added to Cart";
-            el.style.backgroundColor = "gray";
-            counter.innerText = cart.length;
+    if (el.innerText == "Add to Cart") {
+      cart.push(cartItem)
+      el.innerText = "Added to Cart";
+      el.style.backgroundColor = "gray";
+      counter.innerText = cart.length;
 
-        }
+    }
 
-        
 
-        console.log(cart)
-    })
+
+    console.log(cart)
+  })
 })
 
 
